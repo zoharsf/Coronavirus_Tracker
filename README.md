@@ -18,8 +18,8 @@ When run on an ESP8266 microcontroller, this code does the following:
 
 ### Data Source
 The data displayed originates from two endpoints:
-1. `https://corona.lmao.ninja/all` - returns a JSON object with updated Coronavirus data for the whole world
-2. `https://corona.lmao.ninja/countries/COUNTRY_NAME` - returns a JSON object with updated Coronavirus data for the country name after the last slash
+1. `https://corona.lmao.ninja/v2/all` - returns a JSON object with updated Coronavirus data for the whole world
+2. `https://corona.lmao.ninja/v2/countries/COUNTRY_NAME` - returns a JSON object with updated Coronavirus data for the country name after the last slash
 
 ### Code Configuration
 The following code changes need to be made prior to compiling and uploading to the ESP8266:
