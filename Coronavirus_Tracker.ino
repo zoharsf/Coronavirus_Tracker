@@ -34,8 +34,8 @@ U8G2_SSD1306_128X64_NONAME_1_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SD
 const char* ssid = "WIFI_NETWORK_NAME";
 const char* password = "WIFI_NETWORK_PASSWORD";
 
-String countrylUrl = "https://corona.lmao.ninja/countries/COUNTRY_NAME";
-String worldUrl = "https://corona.lmao.ninja/all";
+String countrylUrl = "https://corona.lmao.ninja/v2/countries/COUNTRY_NAME";
+String worldUrl = "https://corona.lmao.ninja/v2/all";
 
 DynamicJsonDocument doc(1024);
 HTTPClient https;
